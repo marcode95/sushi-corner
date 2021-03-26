@@ -118,22 +118,47 @@ body {
 /* menu */
 
 #menu-page {
+  display: none;
   position: absolute;
-  bottom: 20%;
+  bottom: 14%;
   right: 7%;
-  font-size: 2vw;
+  font-size: 1.7vw;
+}
+
+.single-menu-item {
+  margin-bottom: 15px;
 }
 
 .japanese {
   margin-right: 20px;
+  float: left;
+  width: 12vw;
 }
 
 .english {
   margin-right: 20px;
 }
 
-.single-menu-item {
-  margin-bottom: 10px;
+.price {
+  color: #83B9CC;
+  float: right;
 }
 
 /* contact */
+
+#contact-page {
+  display: none;
+  position: absolute;
+  bottom: 20%;
+  right: 7%;
+  font-size: 2vw;
+}
+
+.single-contact-item {
+  margin-bottom: 15px;
+}
+
+.contact-value {
+  float: left;
+  width: 17vw;
+}
