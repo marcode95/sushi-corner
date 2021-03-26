@@ -1,6 +1,7 @@
 const menu = () => {
   const content = document.getElementById('content');
   const menu = document.createElement('div');
+  menu.classList.add('hide');
   menu.setAttribute('id', 'menu-page');
   menu.innerHTML = `
   <p class="single-menu-item">

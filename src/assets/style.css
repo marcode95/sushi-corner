@@ -124,7 +124,6 @@ body {
 /* menu */
 
 #menu-page {
-  display: none;
   position: absolute;
   bottom: 14%;
   right: 7%;
@@ -153,7 +152,6 @@ body {
 /* contact */
 
 #contact-page {
-  display: none;
   position: absolute;
   bottom: 20%;
   right: 7%;

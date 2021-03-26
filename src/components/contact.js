@@ -1,6 +1,7 @@
 const contact = () => {
   const content = document.getElementById('content');
   const contact = document.createElement('div');
+  contact.classList.add('hide');
   contact.setAttribute('id', 'contact-page');
   contact.innerHTML = `
   <p class="single-contact-item">
