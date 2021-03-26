@@ -34,5 +34,3 @@ contactButton.addEventListener('click', () => {
   menuPage.style.display = 'none';
   contactPage.style.display = 'block';
 });
-
-

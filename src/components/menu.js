@@ -1,7 +1,7 @@
 export default function menu() {
-  const content = document.getElementById("content");
+  const content = document.getElementById('content');
   const menu = document.createElement('div');
-  menu.setAttribute('id', 'menu-page')
+  menu.setAttribute('id', 'menu-page');
   menu.innerHTML = `
   <p class="single-menu-item">
     <span class="japanese">かっぱ巻き</span>
@@ -47,7 +47,6 @@ export default function menu() {
     <span class="japanese">かっぱ巻き</span>
     <span class="english">KAPPA MAKI Japanese Cucumber Roll</span>
     <span class="price">6</span>
-  </p>`
+  </p>`;
   content.appendChild(menu);
-;
 }

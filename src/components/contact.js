@@ -1,7 +1,7 @@
 export default function contact() {
-  const content = document.getElementById("content");
+  const content = document.getElementById('content');
   const contact = document.createElement('div');
-  contact.setAttribute('id', 'contact-page')
+  contact.setAttribute('id', 'contact-page');
   contact.innerHTML = `
   <p class="single-contact-item">
     <span class="contact-value">Street</span>
@@ -26,7 +26,6 @@ export default function contact() {
   <p class="single-contact-item">
     <span class="contact-value">Temporary Mail</span>
     <span class="contact-key">sushicorner@doesntexist.com</span>
-  </p>`
+  </p>`;
   content.appendChild(contact);
-;
 }

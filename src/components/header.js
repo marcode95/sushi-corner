@@ -1,5 +1,5 @@
 export default function header() {
-  const content = document.getElementById("content");
+  const content = document.getElementById('content');
   content.innerHTML = `
   <div class="bg-image"></div>
   <div class="buttons">
