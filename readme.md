@@ -2,9 +2,16 @@
   <h1><b>Sushi Corner</b></h1>
 
 
-A restaurant page showcasing a simple tab-switching functionality implemented through HTML3, CSS3 and Javascript.
-
+A restaurant page showcasing a simple tab-switching functionality implemented through HTML3, CSS3 and 
+Javascript.
+<br>  
+  
+  
+## Live Version
+https://raw.githack.com/marcode95/sushi-corner/feature/dist/index.html
 </div>
+<br>  
+
 
 ## Content
 
@@ -17,7 +24,7 @@ A restaurant page showcasing a simple tab-switching functionality implemented th
 
 
 ## About <a name = "about"></a>
-This project was a task by Microverse Inc. to build a restaurant page inluding a simple tab-switching functionality. Visitors can switch between the home, menu and contact tabs without having to load a new page. 
+This project was a task by Microverse Inc. to build a restaurant page inluding a simple tab-switching functionality. Visitors can switch between the home, menu and contact tabs without having to load a new page.
 
 
 ## 🔧 Built with<a name = "with"></a>
