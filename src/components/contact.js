@@ -28,6 +28,6 @@ const contact = () => {
     <span class="contact-key">sushicorner@doesntexist.com</span>
   </p>`;
   content.appendChild(contact);
-}
+};
 
 export { contact as default };

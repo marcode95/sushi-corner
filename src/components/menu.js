@@ -49,6 +49,6 @@ const menu = () => {
     <span class="price">6</span>
   </p>`;
   content.appendChild(menu);
-}
+};
 
 export { menu as default };

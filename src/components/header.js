@@ -7,6 +7,6 @@ const header = () => {
     <button id="menu-button">Menu</button>
     <button id="contact-button">Contact</button>
   </div>`;
-}
+};
 
 export { header as default };
