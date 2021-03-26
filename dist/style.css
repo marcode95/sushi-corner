@@ -1,3 +1,5 @@
+/* global */
+
 html {
   height: 100%;
 }
@@ -17,6 +19,8 @@ body {
   outline:none;
 }
 
+/* header */
+
 #content {
   font-family: 'Khula', sans-serif;
   padding: 5% 7%;
@@ -25,25 +29,6 @@ body {
   background-position: 10% 20%;
   background-size: 40%;
   background-repeat: no-repeat;
-}
-
-.headline {
-  position: absolute;
-  bottom: 7%;
-  right: 7%;
-  font-size: 10vw;
-  font-weight: 600;
-  color: #006C92;
-}
-
-.catch-phrase {
-  position: absolute;
-  bottom: 27%;
-  right: 7%;
-  font-size: 2.3vw;
-  font-weight: 600;
-  color: black;
-  text-decoration: underline;
 }
 
 .buttons {
@@ -108,3 +93,47 @@ body {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+/* main */
+
+.headline {
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  font-size: 10vw;
+  font-weight: 600;
+  color: #006C92;
+}
+
+.catch-phrase {
+  position: absolute;
+  bottom: 27%;
+  right: 7%;
+  font-size: 2.3vw;
+  font-weight: 600;
+  color: black;
+  text-decoration: underline;
+}
+
+/* menu */
+
+#menu-page {
+  position: absolute;
+  bottom: 20%;
+  right: 7%;
+  font-size: 2vw;
+}
+
+.japanese {
+  margin-right: 20px;
+}
+
+.english {
+  margin-right: 20px;
+}
+
+.single-menu-item {
+  margin-bottom: 10px;
+}
+
+/* contact */

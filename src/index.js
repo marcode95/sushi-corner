@@ -1,6 +1,8 @@
 import header from './components/header';
-import mainPage from './components/mainPage';
+import main from './components/main';
+import menu from './components/menu';
 
 
 header();
+menu();
 
