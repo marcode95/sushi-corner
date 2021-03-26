@@ -18,19 +18,28 @@ const menuPage = document.getElementById('menu-page');
 const contactPage = document.getElementById('contact-page');
 
 mainButton.addEventListener('click', () => {
-  mainPage.style.display = 'block';
-  menuPage.style.display = 'none';
-  contactPage.style.display = 'none';
+  mainPage.classList.add('show');
+  mainPage.classList.remove('hide');
+  menuPage.classList.add('hide');
+  menuPage.classList.remove('show');
+  contactPage.classList.add('hide');
+  contactPage.classList.remove('show');
 });
 
 menuButton.addEventListener('click', () => {
-  mainPage.style.display = 'none';
-  menuPage.style.display = 'block';
-  contactPage.style.display = 'none';
+  mainPage.classList.add('hide');
+  mainPage.classList.remove('show');
+  menuPage.classList.add('show');
+  menuPage.classList.remove('hide');
+  contactPage.classList.add('hide');
+  contactPage.classList.remove('show');
 });
 
 contactButton.addEventListener('click', () => {
-  mainPage.style.display = 'none';
-  menuPage.style.display = 'none';
-  contactPage.style.display = 'block';
+  mainPage.classList.add('hide');
+  mainPage.classList.remove('show');
+  menuPage.classList.add('hide');
+  menuPage.classList.remove('show');
+  contactPage.classList.add('show');
+  contactPage.classList.remove('hide');
 });

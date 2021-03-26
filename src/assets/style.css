@@ -168,3 +168,13 @@ body {
   float: left;
   width: 17vw;
 }
+
+/* tab switching */
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
