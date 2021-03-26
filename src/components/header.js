@@ -1,8 +1,6 @@
-export default function initPage() {
+export default function header() {
   const content = document.getElementById("content");
   content.innerHTML = `
-  <h1 class="headline">Sushi Corner</h1>
-  <p class="catch-phrase">BEST SUSHI IN TOWN</p>
   <div class="bg-image"></div>
   <div class="buttons">
     <button id="home-button">Home</button>
@@ -10,4 +8,3 @@ export default function initPage() {
     <button id="contact-button">Contact</button>
   </div>`;
 }
-
