@@ -1,4 +1,4 @@
-export default function contact() {
+const contact = () => {
   const content = document.getElementById('content');
   const contact = document.createElement('div');
   contact.setAttribute('id', 'contact-page');
@@ -29,3 +29,5 @@ export default function contact() {
   </p>`;
   content.appendChild(contact);
 }
+
+export { contact as default };

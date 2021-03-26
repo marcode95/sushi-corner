@@ -1,4 +1,4 @@
-export default function main() {
+const main = () => {
   const content = document.getElementById('content');
   const main = document.createElement('div');
   main.setAttribute('id', 'main-page');
@@ -7,3 +7,5 @@ export default function main() {
   <p class="catch-phrase">BEST SUSHI IN TOWN</p>`;
   content.appendChild(main);
 }
+
+export { main as default };

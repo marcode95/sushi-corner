@@ -1,4 +1,4 @@
-export default function menu() {
+const menu = () => {
   const content = document.getElementById('content');
   const menu = document.createElement('div');
   menu.setAttribute('id', 'menu-page');
@@ -50,3 +50,5 @@ export default function menu() {
   </p>`;
   content.appendChild(menu);
 }
+
+export { menu as default };

@@ -1,4 +1,4 @@
-export default function header() {
+const header = () => {
   const content = document.getElementById('content');
   content.innerHTML = `
   <div class="bg-image"></div>
@@ -8,3 +8,5 @@ export default function header() {
     <button id="contact-button">Contact</button>
   </div>`;
 }
+
+export { header as default };
